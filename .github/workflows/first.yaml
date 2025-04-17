@@ -1,0 +1,8 @@
+name: first yaml script
+on: [push]
+jobs:
+  runs-shells-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo astring
+        run: echo "this is the first file"
